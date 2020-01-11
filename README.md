@@ -2,7 +2,7 @@
 
 Hi there!
 
-This is just a demonstration of a very simple trick to deploy your own bootkit and system that boots with GRUB. 
+This is just a demonstration of a very simple trick to deploy your own bootkit on a system that boots with GRUB. 
 
 The trick is simply to use your own code as the init parameter to the kernel, fork, start systemd as normal and you're done!
 
